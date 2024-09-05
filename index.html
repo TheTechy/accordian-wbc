@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Web Component - Profile Card</title>
+		<link rel="stylesheet" href="default.css" />
+		<style>
+			html, body{
+				padding: 			10px;
+				background-color:	rgb(230,230,230);
+			}
+
+			main{
+				position: relative;
+				width: 50%;
+				left: 50%;
+				transform: translate(-50%);
+			}
+			</style>
+	</head>
+	<body>
+		<header></header>
+		<main>	
+			<accordian-wbc>
+				<span slot="text1" title="First text">The quick brown fox jumed over the lazy dogs.</span>
+				<span slot="text3" title="Third text">She sells sea shells on the sea shore</span>
+				<span slot="text4" title="Forth text">There are greater things in heaven...</span>
+			</accordian-wbc>
+		</main>
+		<footer></footer>
+		<script></script>
+		<script src="accordian-wbc.js"></script>
+	</body>
+</html>
